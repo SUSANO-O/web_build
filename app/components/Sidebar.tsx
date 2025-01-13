@@ -39,7 +39,7 @@ interface SidebarProps {
 
 export default function Sidebar({ isOpen }: SidebarProps) {
   return (
-    <div className={`fixed top-14 left-0 w-64 bg-zinc-900 text-white h-full overflow-auto transition-transform duration-300 transform ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}>
+    <div>
       <div className="p-4">
         <h2 className="text-sm font-semibold mb-3 text-zinc-400">Blocks</h2>
         <div className="space-y-4">

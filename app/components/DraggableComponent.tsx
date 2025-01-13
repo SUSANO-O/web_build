@@ -19,6 +19,7 @@ export default function DraggableComponent({
 
   return (
     <div
+      style={{ backgroundColor: '#fff', border: '1px solid #000' }}
       draggable
       onDragStart={handleDragStart}
       className="flex flex-col items-center justify-center p-3 bg-zinc-800 rounded-lg cursor-move hover:bg-zinc-700 transition-colors"
